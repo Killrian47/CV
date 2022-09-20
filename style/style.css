@@ -34,12 +34,13 @@ a {
 
 /* HEADER */
 header {
-    height: 60px;
+    height: 100px;
     overflow: auto;
     background-color: var(--dark);
     color: var(--light);
 }
-header ul {    
+header ul {   
+    height: 100px; 
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -147,7 +148,28 @@ header ul li a:hover {
     font-weight: bold;
 }
 .bottom-right-container {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.exp-pro {
+    margin-top: var(--spacing2);
+    margin-left: var(--spacing3);
+}
+.exp-pro p {
+    margin: var(--spacing2);
+}
+.formation {
+    margin-top: var(--spacing2);
+}
+.formation p {
+    margin: var(--spacing3);
+}
+.autres {
+    margin-left: var(--spacing3);
+}
+.autres p {
+    margin: var(--spacing2);
 }
 /* RIGHT CONTAINER END */
 
