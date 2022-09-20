@@ -17,12 +17,13 @@
     --calc-height: 1em  ;
 }
 html {
+    background: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: .9rem;
     line-height: 1.5;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 li {
     list-style: none;
