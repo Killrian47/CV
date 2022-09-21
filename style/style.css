@@ -7,7 +7,7 @@
 
 :root {
     --max-width: 100%;
-    --primary-color: #FFDEAD;
+    --primary-color: #4472C4;
     --light: white;
     --dark: black;
     --gray: lightgrey;
@@ -17,7 +17,7 @@
     --calc-height: 1em  ;
 }
 html {
-    
+    background-color: var(--gray);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: .9rem;
@@ -37,8 +37,8 @@ a {
 header {
     height: 100px;
     overflow: auto;
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: var(--light);
+    color: var(--dark);
 }
 header ul {   
     height: 100px; 
@@ -52,7 +52,7 @@ header ul li {
 }
 header ul li a {
     padding: var(--spacing2);
-    color: var(--light);
+    color: var(--dark);
 }
 header ul li a:hover {
     background-color: grey;
@@ -149,6 +149,7 @@ header ul li a:hover {
     font-weight: bold;
 }
 .bottom-right-container {
+    background-color: var(--light);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -176,7 +177,7 @@ header ul li a:hover {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .big-container {
         grid-template-columns: 100%;
         /*grid-template-rows: 2fr 2fr 2fr;*/
