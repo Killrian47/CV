@@ -179,7 +179,6 @@ header ul li a:hover {
 /* STYLE PROJET */
 .projets {
     height: auto;
-    border: 1px solid black;
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 1fr 1fr 1fr;
@@ -190,12 +189,7 @@ header ul li a:hover {
     border: 1px solid black;
     margin: var(--spacing3);
     padding: var(--spacing2);
-}
-/* .projet-1:hover {
-    animation: slide-bot 5s 1;
-} */
-.projet {
-    animation: slide-initial 2s ;
+    animation: slide-initial 2s;
 }
 .projet-1 {
     background-color: pink;
@@ -225,7 +219,6 @@ header ul li a:hover {
         height: auto;
     }
     .left-container {
-        /*height: calc(var(--calc-height)*25);*/
         display: grid;
         grid-column-start: 1;
         grid-row-start: 3;
