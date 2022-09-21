@@ -191,11 +191,11 @@ header ul li a:hover {
     margin: var(--spacing3);
     padding: var(--spacing2);
 }
-.projet-1:hover {
+/* .projet-1:hover {
     animation: slide-bot 5s 1;
-}
-.projet:not(:hover) {
-    animation: slide-initial 3s 1;
+} */
+.projet {
+    animation: slide-initial 2s ;
 }
 .projet-1 {
     background-color: pink;
