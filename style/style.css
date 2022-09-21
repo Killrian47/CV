@@ -245,6 +245,18 @@ header ul li a:hover {
         margin-top: 0%;
         margin-bottom: 0%;
     }
+    .top-right-container {
+        grid-template-rows: 50% 25% 25% ;
+    }
+    .mail-num {
+        grid-column-start: 1;
+        grid-column-end: 3; 
+    }
+    .location {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+    }
 }
 /* RESPONSIVE MOBILE END */
 
