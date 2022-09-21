@@ -152,7 +152,7 @@ header ul li a:hover {
     background-color: var(--light);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
 }
 .exp-pro {
     margin-top: var(--spacing2);
@@ -221,30 +221,38 @@ header ul li a:hover {
 @media screen and (max-width: 700px) {
     .big-container {
         grid-template-columns: 100%;
-        /*grid-template-rows: 2fr 2fr 2fr;*/
+        grid-template-rows: 2fr 1fr;
+        height: auto;
     }
     .left-container {
-        height: calc(var(--calc-height)*25);
+        /*height: calc(var(--calc-height)*25);*/
         display: grid;
+        grid-column-start: 1;
+        grid-row-start: 3;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 3fr;
+        grid-template-rows: 1fr;
     }
     .who {
         grid-column-start: 1;
         grid-column-end: 3;
+        display: none;
     }
 
     .right-container {
         margin-top: var(--spacing3);
         grid-column-start: 1;
-        grid-row-start: 3;
+        grid-row-start: 1;
         margin-top: 0%;
+        margin-bottom: 0%;
     }
 }
 /* RESPONSIVE MOBILE END */
 
 /*REPONSIVE PC */
 @media screen and (min-width: 701px) {
+    .projets {
+        grid-template-rows: 1fr 1fr;
+    }
     .projet-1 {
         grid-column-start: 2;
         grid-column-end: 3;
