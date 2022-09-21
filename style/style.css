@@ -246,7 +246,7 @@ header ul li a:hover {
         margin-bottom: 0%;
     }
     .top-right-container {
-        grid-template-rows: 2fr 1fr 1fr ;
+        grid-template-rows: 2fr 1fr 1fr;
     }
     .mail-num {
         grid-column-start: 1;
