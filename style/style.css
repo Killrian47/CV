@@ -208,7 +208,7 @@ header ul li a:hover {
 /* STYLE PROJET END */
 
 
-
+/* RESPONSIVE MOBILE*/
 @media screen and (max-width: 700px) {
     .big-container {
         grid-template-columns: 100%;
@@ -232,6 +232,26 @@ header ul li a:hover {
         margin-top: 0%;
     }
 }
+/* RESPONSIVE MOBILE END */
+
+/*REPONSIVE PC */
+@media screen and (min-width: 701px) {
+    .projet-1 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .projet-2 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: initial ;
+    }
+    .projet-3 {
+        grid-column-start: 2;
+        grid-column-end: 3  ;
+        grid-row-start: 2;
+    }
+}
+/* RESPONSIVE PC END */
 
 
 /* ANIMATION */
