@@ -242,7 +242,7 @@ header ul li a:hover {
 
 
 /*REPONSIVE PC */
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 700px) {
     /* RESPONSIVE CV */
     .big-container {
         grid-template-columns: 1fr 2fr;
