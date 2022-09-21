@@ -16,14 +16,14 @@
     --spacing3: 24px;
     --calc-height: 1em  ;
 }
-html {
+html, body {
     background-color: var(--gray);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: .9rem;
     line-height: 1.5;
     height: 100%;
-    overflow: auto;
+    
 }
 li {
     list-style: none;
@@ -35,13 +35,13 @@ a {
 
 /* HEADER */
 header {
-    height: 100px;
+    height: auto; 
     overflow: auto;
     background-color: var(--light);
     color: var(--dark);
 }
 header ul {   
-    height: 100px; 
+    height: 100px;
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -185,8 +185,17 @@ header ul li a:hover {
     grid-template-rows: 1fr 1fr 1fr;
 }
 .projet {
+    width: auto;
+    height: auto;
     border: 1px solid black;
     margin: var(--spacing3);
+    padding: var(--spacing2);
+}
+.projet-1:hover {
+    animation: slide-bot 5s 1;
+}
+.projet:not(:hover) {
+    animation: slide-initial 3s 1;
 }
 .projet-1 {
     background-color: pink;
@@ -255,5 +264,20 @@ header ul li a:hover {
 
 
 /* ANIMATION */
-
+@keyframes slide-bot {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(0px, 100px);
+    }
+}
+@keyframes slide-initial {
+    from {
+        transform: translate(0px, 100px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
 /* ANIMATION END */
