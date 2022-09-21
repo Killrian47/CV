@@ -179,7 +179,7 @@ header ul li a:hover {
 @media screen and (max-width: 600px) {
     .big-container {
         grid-template-columns: 100%;
-        grid-template-rows: 2fr 2fr 2fr;
+        /*grid-template-rows: 2fr 2fr 2fr;*/
     }
     .left-container {
         height: calc(var(--calc-height)*25);
@@ -196,6 +196,7 @@ header ul li a:hover {
         margin-top: var(--spacing3);
         grid-column-start: 1;
         grid-row-start: 3;
+        margin-top: 0%;
     }
 }
 
