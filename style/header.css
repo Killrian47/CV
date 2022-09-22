@@ -1,0 +1,25 @@
+/* HEADER */
+header {
+    height: auto; 
+    overflow: auto;
+    background-color: var(--light);
+    color: var(--dark);
+}
+header ul {   
+    height: 100px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+header ul li {
+    margin: calc(var(--spacing2));
+}
+header ul li a {
+    padding: var(--spacing2);
+    color: var(--dark);
+}
+header ul li a:hover {
+    background-color: var(--gray);
+}
+/* HEADER END */
