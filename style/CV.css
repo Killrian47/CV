@@ -44,7 +44,7 @@
     grid-template-rows: 0.5fr 1fr;
 }
 .top-right-container {
-    background-color: var(--gray);
+    background-color:darkgrey;
     grid-column-start: 1;
     grid-column-end: 3;
 
