@@ -66,6 +66,9 @@
 .mail {
     text-align: center;  
 }
+.mail a {
+    color: blue;
+}
 .num {
     text-align: center;
     font-weight: bold;

@@ -1,11 +1,11 @@
 let toggle = document.querySelector('.toggle');
 let body = document.querySelector('body');
-// let rocket = document.querySelector('go-home')
+let toggle2 = document.querySelector('.toggle2')
 
 toggle.addEventListener('click', function() {
     body.classList.toggle('open');
 })
 
-// rocket.addEventListener('click', function() {
-
-// })
+toggle2.addEventListener('click', function() {
+    body.classList.toggle('dark-thema')
+})

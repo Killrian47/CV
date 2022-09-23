@@ -1,0 +1,18 @@
+.light {
+    font-size: 2rem;
+}
+.dark {
+    font-size: 2rem;
+    display: none !important;
+}
+
+.dark-thema {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+.dark-thema .dark {
+    display: block !important;
+}
+.dark-thema .light {
+    display: none;
+}

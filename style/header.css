@@ -47,6 +47,7 @@ nav {
     font-size: 1.5em;
     color: white;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .open .ouvrir {
     display: none;
@@ -81,11 +82,11 @@ nav {
 @media screen and (min-width: 700px) {
     
     header {
-        background-color: black;
+        background-color: var(--gray);
         overflow: auto;    
     }
     .logo a {
-        color: white;
+        color: black;
     }
     header nav ul {   
         height: 100px;
@@ -104,9 +105,6 @@ nav {
     header nav ul li a:hover {
         background-color: var(--gray);
     }
-    .logo {
-        color: white;
-    }
     .toggle {
         display: none;
     }
@@ -115,5 +113,8 @@ nav {
         display: flex;
         justify-content: space-around;
         width: 550px;
+    }
+    .menu li a {
+        color: black;
     }
 }
