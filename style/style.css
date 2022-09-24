@@ -2,6 +2,7 @@
 @import url(cv.css);
 @import url(form.css);
 @import url(dark-light.css);
+@import url(arrow-to-top.css);
 
 /* IMPORT */
 
@@ -24,6 +25,7 @@
     --calc-height: 1em  ;
 }
 html {
+    scroll-behavior: smooth;
     height: 100%;
 }
 body {
