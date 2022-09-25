@@ -33,20 +33,30 @@
             <ul class="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="CV2.html">My CV</a></li>
-                <li><a href="contact.html">Contact me</a></li>
+                <!-- <li><a href="contact.html">Contact me</a></li> -->
             </ul>
         </nav>
     </header>
     
     <form class="form-contact" action="/" method="post">
-        <label for="name">Your name</label>
-        <input type="text" placeholder="Tape your name pls !" required>
+        <div class="name">
+            <label for="name">Your name</label>
+            <input type="text" placeholder="Tape your name pls !" required>
+        </div>
 
-        <label for="mail">Your mail</label>
-        <input type="mail" placeholder="example@example.com" required>
+        <div class="mail">
+            <label for="mail">Your mail</label>
+            <input type="mail" placeholder="example@example.com" required>
+        </div>
 
-        <label for="message">Tape your message</label>
-        <textarea class="message" name="message" placeholder="Write your message here pls"></textarea>
+        <div class="mess">
+            <label for="message">Tape your message</label>
+            <textarea class="message" name="message" placeholder="Write your message here pls"></textarea>
+        </div>
+
+        <div class="btn-form">
+            <button>Envoyer</button>
+        </div>
     </form>
 
     

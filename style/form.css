@@ -1,0 +1,47 @@
+.form-contact {
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    border: 2px solid black;
+}
+.dark-thema .form-contact {
+    border: 2px solid white;
+}
+
+.name {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px;
+    margin-top: 20px;
+}
+
+.mail {
+    font-weight: bold;
+    width: 50%;
+    margin: 50px;
+    margin-top: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.mess {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 0;
+}
+
+textarea {
+    height: 250px;
+}
+
+.btn-form {
+    margin: 50px;
+    margin-top: 0;
+    text-align: right;
+    text-decoration: none;
+}
