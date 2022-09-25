@@ -16,3 +16,10 @@
 .dark-thema .light {
     display: none;
 }
+
+.open .light {
+    display: none;
+}
+.open .dark {
+    display: none !important;
+}

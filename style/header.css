@@ -62,7 +62,8 @@ nav {
     overflow: hidden;
 }
 .open .menu {
-    flex-direction: column;
+    margin-top: 100px;
+    flex-direction: row;
     width: 100%;
     transform: translate(0);
     background-color: var(--gray);
