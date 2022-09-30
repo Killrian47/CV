@@ -12,4 +12,18 @@
         transform: translate(0px, 0px);
     }
 }
+@keyframes slide-in-right {
+    from {
+        transform: translateX(-300%);
+    } to {
+        transform: translateX(0);
+    }
+}
+@keyframes slide-in-left {
+    from {
+        transform: translateX(300%);
+    } to {
+        transform: translateX(0);
+    }
+}
 /* ANIMATION END */

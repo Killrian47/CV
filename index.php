@@ -2,19 +2,15 @@
     <?php
     include("header.php")
     ?>
-    
-    <a href="#" class="go-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-    
 
     <main>
         <section class="about-me1">
             <div class="me">
                 <h2>A propos de moi</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum amet dicta perferendis earum laborum ut quisquam corrupti et nesciunt non temporibus totam, officia est, quod optio. Atque aliquid porro officia!</p>
+                <p>Bonjour, je suis Killian, étudiant en informatique et passionné par ce domaine, je suis en formation pour devenir Développeur Web.
+                    Pour me former j'ai choisi la Wild Code School.
+                </p>
             </div>
 
             <div class="my-objective">
