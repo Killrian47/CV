@@ -1,10 +1,13 @@
-@import url(header.css);
-@import url(cv.css);
-@import url(form.css);
-@import url(dark-light.css);
-@import url(arrow-to-top.css);
+/* IMPORT ↓ */ 
 
-/* IMPORT */
+@import url(styles/header.css);
+@import url(styles/cv.css);
+@import url(styles/form.css);
+@import url(styles/dark-light.css);
+@import url(styles/arrow-to-top.css);
+@import url(styles/animations.css);
+
+/* IMPORT ↑ */
 
 /* GENERAL */
 * {
@@ -137,18 +140,3 @@ a {
 /* RESPONSIVE PC END */
 
 
-/* ANIMATION */
-@keyframes bigger {
-    from {
-        
-    }
-}
-@keyframes slide-initial {
-    from {
-        transform: translate(0px, 100px);
-    }
-    to {
-        transform: translate(0px, 0px);
-    }
-}
-/* ANIMATION END */

@@ -1,0 +1,15 @@
+/* ANIMATION */
+@keyframes bigger {
+    from {
+        
+    }
+}
+@keyframes slide-initial {
+    from {
+        transform: translate(0px, 100px);
+    }
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+/* ANIMATION END */
