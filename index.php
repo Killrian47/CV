@@ -1,31 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Killian's website</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-</head>
-<body>
 
-    <a href="#" class="go-to-top">
-        <i class="fas fa-arrow-up"></i>
-    </a>
-
-<?php
-include("header.php")
-?>
-    
+    <?php
+    include("header.php")
+    ?>
 
     <main>
         <section class="about-me1">
             <div class="me">
                 <h2>A propos de moi</h2>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum amet dicta perferendis earum laborum ut quisquam corrupti et nesciunt non temporibus totam, officia est, quod optio. Atque aliquid porro officia!</p>
+                <p>Bonjour, je suis Killian, étudiant en informatique et passionné par ce domaine, je suis en formation pour devenir Développeur Web.
+                    Pour me former j'ai choisi la Wild Code School.
+                </p>
             </div>
 
             <div class="my-objective">

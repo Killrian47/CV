@@ -1,10 +1,13 @@
-@import url(header.css);
-@import url(cv.css);
-@import url(form.css);
-@import url(dark-light.css);
-@import url(arrow-to-top.css);
+/* IMPORT ↓ */ 
 
-/* IMPORT */
+@import url(styles/header.css);
+@import url(styles/cv.css);
+@import url(styles/form.css);
+@import url(styles/dark-light.css);
+@import url(styles/arrow-to-top.css);
+@import url(styles/animations.css);
+
+/* IMPORT ↑ */
 
 /* GENERAL */
 * {
@@ -80,6 +83,7 @@ a {
     display: grid;
     grid-template-columns: 10% 40% 40% 10%;
     grid-template-rows: 1fr 1fr 1fr;
+    overflow-x: hidden;
 }
 .projet {
     width: auto;
@@ -87,7 +91,6 @@ a {
     border: 1px solid black;
     margin: var(--spacing3);
     padding: var(--spacing2);
-    animation: slide-initial 2s;
     
 }
 
@@ -95,19 +98,21 @@ a {
     background-color: pink;
     grid-column-start: 2;
     grid-column-end: 4;
-   
+   animation: slide-in-right 2s;
 }
 .projet-2 {
     background-color: #4472C4;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
+    animation: slide-in-left 2s;
 }
 .projet-3 {
     background-color: aqua;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;
+    animation: slide-in-right 2s;
 }
 /* STYLE PROJET END */
 
@@ -115,9 +120,12 @@ a {
 /*REPONSIVE PC */
 @media screen and (min-width: 700px) {
     
-
+    .about-me1 {
+        flex-direction: row;
+    }
     .projets {
         grid-template-rows: 1fr 1fr;
+        
     }
     .projet-1 {
         grid-column-start: 2;
@@ -137,18 +145,3 @@ a {
 /* RESPONSIVE PC END */
 
 
-/* ANIMATION */
-@keyframes bigger {
-    from {
-        
-    }
-}
-@keyframes slide-initial {
-    from {
-        transform: translate(0px, 100px);
-    }
-    to {
-        transform: translate(0px, 0px);
-    }
-}
-/* ANIMATION END */
