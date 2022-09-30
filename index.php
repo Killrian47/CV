@@ -15,28 +15,9 @@
         <i class="fas fa-arrow-up"></i>
     </a>
 
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="/"><i class="fas fa-rocket go-home"></i></a>    
-            </div>
-
-            <div class="toggle2">
-                <i class="fas fa-toggle-off light"></i>
-                <i class="fas fa-toggle-on dark"></i>
-            </div>
-
-            <div class="toggle">
-                <i class="fas fa-bars ouvrir"></i>
-                <i class="fas fa-times fermer"></i>
-            </div>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="CV2.html">My CV</a></li>
-                <!-- <li><a href="contact.html">Contact me</a></li> -->
-            </ul>
-        </nav>
-    </header>
+<?php
+include("header.php")
+?>
     
 
     <main>

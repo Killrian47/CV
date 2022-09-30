@@ -31,9 +31,9 @@
                 <i class="fas fa-times fermer"></i>
             </div>
             <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="CV2.html">My CV</a></li>
-                <!-- <li><a href="contact.html">Contact me</a></li> -->
+                <li><a href="index.php">Home</a></li>
+                <li><a href="CV2.php">My CV</a></li>
+                <!-- <li><a href="contact.php">Contact me</a></li> -->
             </ul>
         </nav>
     </header>
