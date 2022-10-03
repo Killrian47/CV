@@ -1,0 +1,12 @@
+.switchLang .en {
+    display: block ;
+}
+.switchLang .fr {
+    display: none;
+}
+.en {
+    display: none ;
+}
+.lang {
+    font-size: 2rem;
+}
