@@ -29,9 +29,14 @@
                 <i class="fas fa-bars ouvrir"></i>
                 <i class="fas fa-times fermer"></i>
             </div>
+            <div class="toggle3">
+            <i class="fas fa-language lang"></i>
+            </div>
             <ul class="menu">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="CV2.php">My CV</a></li>
+                <li class="fr"><a href="index.php">Accueil</a></li>
+                <li class="fr"><a href="CV2.php">Mon CV</a></li>
+                <li class="en"><a href="index.php">Home</a></li>
+                <li class="en"><a href="CV2.php">My CV</a></li>
                 <!-- <li><a href="contact.php">Contact me</a></li> -->
             </ul>
         </nav>
