@@ -10,3 +10,6 @@
 .lang {
     font-size: 2rem;
 }
+.open .lang {
+    display: none;
+}
