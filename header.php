@@ -25,13 +25,15 @@
                 <i class="fas fa-toggle-on dark"></i>
             </div>
 
+            <div class="toggle3">
+            <i class="fas fa-language lang"></i>
+            </div>
+
             <div class="toggle">
                 <i class="fas fa-bars ouvrir"></i>
                 <i class="fas fa-times fermer"></i>
             </div>
-            <div class="toggle3">
-            <i class="fas fa-language lang"></i>
-            </div>
+            
             <ul class="menu">
                 <li class="fr"><a href="index.php">Accueil</a></li>
                 <li class="fr"><a href="CV2.php">Mon CV</a></li>
