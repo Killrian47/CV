@@ -1,5 +1,5 @@
 <?php
-    include('header.php')
+    include "header.php";
 ?>
 <section class="big-container">
         <div class="left-container">
